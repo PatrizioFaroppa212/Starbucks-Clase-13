@@ -256,3 +256,129 @@
     text-decoration: none;
 
 }
+@media (min-width: 768px) {
+    .header__conteiner-navlink {
+        display: block;
+    }
+    .header__navlink {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 15px;  
+    }
+    .header__conteiner-usuario-mobile {
+        display: none;
+    }
+    .header__conteiner-usuario {
+        display: block;
+        color: #fff;
+        font-size: 50px;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;   
+        justify-content: space-between; 
+        padding: 15px 30px 60px 30px; 
+    }
+    .main__conteiner-texto {
+        width: 50%;
+        margin-left: 15px;  
+
+    }
+    .main__conteiner-logo {
+    display: block;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .main__logo {
+        width: 80%;   
+    }
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .gallery__img {
+        width: 30%;  
+    }
+    .contactus__form {
+        width: 400px;    
+    }
+    .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    } 
+    .cards__conteiner-card { 
+    width: 40%; 
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+@media (min-width: 1024px) {
+    .main__logo {
+        width: 380px;
+    }
+    .cards__button-conteiner-deliv {
+    display: flex;
+    flex-direction: row;
+    width: 410px;
+    }
+    .gallery__img {
+        width: 300px; 
+    } 
+    .contactus__h2 {
+        font-size: 45px;
+    }
+    .contactus__label {
+        font-size: 20px;
+    }
+    .contactus__form {
+        width: 60%;
+        height: 270px;
+    }
+    .cards__conteiner-card {
+        width: 450px;
+    } 
+    .cards__h2 {
+        font-size: 30px;
+    }
+    .cards__p {
+        font-size: 15px;
+    }
+    .footer {
+        height: 250px;
+        align-items: center;
+    }
+    .footer__conteiner-link-rs {
+        width: 180px;
+    }
+    .footer__conteiner-link-rs i {
+        font-size: 25px;
+    }
+    
+}
+
+@media (min-width: 1440px) {
+    .main {
+        padding: 15px 100px 60px 100px;
+    }
+    .main__logo {
+        justify-content: right;
+    }
+    .gallery__img {
+        width: 350px; 
+    }  
+    .cards__conteiner-card {
+        margin-left: 50px;
+        width: 480px;
+    }
+}
