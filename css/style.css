@@ -147,3 +147,76 @@
     background: #d8f007;
     border: #d8f007;
 }
+.cards {
+    padding: 20px 15px 20px 15px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+
+}
+.cards__conteiner-card {
+    background: #006241;
+    margin: 20px 0px 5px 0px;  
+    color: #fff; 
+    position: relative;   
+    width: 85%;
+
+}
+.cards__circulo-amarillo {
+    border-radius: 50%;
+    background: #d8f007;
+    width: 60px;
+    height: 60px;
+    color: #000;
+    font-weight: bold;  
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: absolute;
+    right: -25px;
+    top: -25px; 
+
+
+}
+.cards__img {
+    width: 100%;
+    object-fit: cover;      
+
+}
+.cards__conteiner-text {
+    padding: 0px 15px 0px 15px; 
+
+}
+.cards__span {
+    color: #d8f007;
+
+}
+.cards__p {
+    font-size: 13px;
+    margin: 7.5px 0px 7.5px 0px;    
+
+}
+.cards__button {
+    background: inherit;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 210px;     
+    height: 35px;   
+    border-radius: 7.5px;  
+    margin: 7px 0px 5px 10px;     
+    padding: 5px 30px 5px 30px;   
+    transition: all 1s; 
+    text-decoration: none;   
+    font-size: 12px;
+
+}
+.cards__button-conteiner-deliv {
+    display: flex;
+    flex-direction: column;
+}
+.cards__button:hover {
+    background: #d8f007;
+    border: #d8f007;
+}
