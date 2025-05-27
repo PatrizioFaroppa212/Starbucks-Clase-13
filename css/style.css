@@ -63,3 +63,15 @@
 .main__conteiner-logo {
     display: none;
 }
+.gallery {
+    background: #006241;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px 30px 10px;  
+    justify-content: center;  
+    align-items: center;       
+}
+.gallery__img {
+    margin: 10px 10px 10px 10px;    
+    width: 90%; 
+}
