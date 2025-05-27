@@ -38,3 +38,28 @@
     color: #fff;    
     font-size: 45px; 
 }
+.main { 
+    margin-top: 120px;  
+    padding: 15px 15px 60px 15px;        
+}
+.main__conteiner-texto {  
+    display: flex; 
+    flex-direction: column;     
+}
+.main__texto-h2 {
+    font-size: 50px;    
+    line-height: 1.2;    
+
+}
+.main__texto-span {
+    color: #006241; 
+}
+.main__texto-p {
+    font-weight: bolder;
+    margin-top: 20px;   
+    font-size: 15px;    
+
+}
+.main__conteiner-logo {
+    display: none;
+}
